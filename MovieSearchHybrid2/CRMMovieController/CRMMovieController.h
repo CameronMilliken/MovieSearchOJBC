@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)fetchMovieWithName: (NSString *)name completion: (void (^)(NSArray<CRMMovie *>* _Nullable movies))completion;
 
-+(void)fetchImageWithMovie: (CRMMovie *)movie
++ (void)fetchImageWithMovie: (CRMMovie *)movie
                 completion: (void (^)(UIImage * _Nullable image))completion;
 
 @end

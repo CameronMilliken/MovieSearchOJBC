@@ -33,9 +33,6 @@ class MovieTableViewCell: UITableViewCell {
             DispatchQueue.main.async {
                 self.moviePosterImage.image = image
             }
-            
         }
-        
     }
-    
 }
